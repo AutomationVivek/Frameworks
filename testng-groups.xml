@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="smoke"></include>
+<include name="sanity"></include>
+<include name="Regression"></include>
+<include name="Common"></include>
+</run>
+</groups>
+  <test name="Test">
+    <classes>
+      <class name="week3day2.testcases.EditLeadUsingInterface"/>
+      <class name="week3day2.testcases.MergeLeadUsingInterface"/>
+      <class name="week3day2.testcases.DeactivateAccount"/>
+      <class name="week3day2.testcases.DeleteLeadUsingInterface"/>
+      <class name="week3day2.testcases.CreateLeadUsingInterface"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
